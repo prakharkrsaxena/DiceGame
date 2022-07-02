@@ -1,5 +1,8 @@
 
-$("button").click(function(){
+var audio = new Audio("best-time.mp3");
+$("button").click(function () {
+
+audio.play();
 var randomNumber1=(Math.floor(Math.random()*6)+1);
 var address1="images/dice"+randomNumber1+".png";
 var randomNumber2=(Math.floor(Math.random()*6)+1);
